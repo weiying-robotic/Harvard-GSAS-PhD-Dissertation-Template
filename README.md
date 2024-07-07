@@ -1,6 +1,6 @@
 # Harvard GSAS PhD Thesis Template (2024 Spring)
 
-This repository contains a LaTeX template tailored from my PhD thesis, initially based on the [Dissertate](https://github.com/suchow/Dissertate) template. The template has been updated to meet the latest requirement(2024 Spring) and includes some customizations for a smooth writing experience.
+This repository contains a LaTeX template tailored from my PhD thesis in Computer Science on **Communication as a Spatial Sensor for Multi-robot Localization and Mapping** , initially based on the [Dissertate](https://github.com/suchow/Dissertate) template. The template has been updated to meet the latest requirement(2024 Spring) and includes some customizations for a smooth writing experience.
 
 
 
@@ -10,7 +10,7 @@ This repository contains a LaTeX template tailored from my PhD thesis, initially
 
 - **dissertation.tex**: The main LaTeX file that includes all chapters and sections.
 - **Dissertate.cls**: The custom class file for the thesis.
-- **style.sty**: The style file specific to Harvard University.
+- **packages/Harvard**: The style files specific to Harvard University.
 - **chapters/**: Directory containing individual chapter files.
 - **frontmatter/**: Directory for the title page, abstract, dedication, and acknowledgments.
 - **endmatter/**: Directory for references and colophon.
