@@ -1,0 +1,57 @@
+
+% Modify the following line to match your school
+% Available options include `Harvard`, `Princeton`, and `NYU`.
+\documentclass[School=Harvard]{Dissertate}
+
+
+
+\usepackage{titlesec}
+
+\begin{document}
+
+% the front matter
+\input{frontmatter/personalize}
+% \addcontentsline{toc}{chapter}{Title}
+\maketitle
+% \addcontentsline{toc}{chapter}{Copyright}
+\copyrightpage
+% \addcontentsline{toc}{chapter}{Abstract}
+\abstractpage
+% \phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
+\tableofcontents
+%\authorlist
+\phantomsection
+\addcontentsline{toc}{chapter}{Listing of figures}
+\listoffigures
+\dedicationpage
+\acknowledgments
+\doublespacing
+
+% include each chapter...
+\setcounter{chapter}{0}  % start chapter numbering at 0
+% \include{chapters/Intro/intro.tex}
+% \include{chapters/chapter1/chapter1_main}
+% \include{chapters/chapter2/chapter2}
+% \include{chapters/chapter3}
+% \include{chapters/chapter3/chapter3_main}
+% \include{chapters/conclusion}
+\include{chapters/introduction}
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\begin{appendices}
+\include{chapters/appendixA}
+\end{appendices}
+
+\singlespacing
+
+% the back matter
+\clearpage
+\bibliography{references}
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{apalike2}
+
+\include{endmatter/colophon}
+
+\end{document}
